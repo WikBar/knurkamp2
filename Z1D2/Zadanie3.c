@@ -10,6 +10,9 @@
                 b += a;
                 a = b - a;
             }
+            if (b<=n){
+                printf("%d ", b);
+            }
         }else{
             printf("liczba poniżej zera");
         }
